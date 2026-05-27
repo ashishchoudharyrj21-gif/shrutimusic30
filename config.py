@@ -38,15 +38,15 @@ def styled_button(text, **kwargs):
 
 load_dotenv()
 
-API_ID = int(os.getenv("API_ID"))
-API_HASH = os.getenv("API_HASH")
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-OWNER_ID = int(os.getenv("OWNER_ID", None))
-OWNER_USERNAME = os.getenv("OWNER_USERNAME", "WTF_WhyMeeh")
-BOT_USERNAME = os.getenv("BOT_USERNAME", "ShrutixMusicBot")
+API_ID = int(os.getenv("API_ID" 32177385))
+API_HASH = os.getenv("API_HASH", "cf2338292ba68d8e5e13bb93b0dc3cc0")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8875211061:AAGGxx1haGV3A39sf28zAxByyg3ZnzdXVK0")
+OWNER_ID = int(os.getenv("OWNER_ID", 6740955542))
+OWNER_USERNAME = os.getenv("OWNER_USERNAME", "GHOSTRIDERFIRE0")
+BOT_USERNAME = os.getenv("BOT_USERNAME", "GHOSTVIBESXSONGBOT")
 
-MONGO_DB_URI = os.getenv("MONGO_DB_URI", None)
-LOG_GROUP_ID = int(os.getenv("LOG_GROUP_ID", None))
+MONGO_DB_URI = os.getenv("MONGO_DB_URI", "mongodb+srv://bsdk:betichod@cluster0.fgj1r9z.mongodb.net/?retryWrites=true&w=majority")
+LOG_GROUP_ID = int(os.getenv("LOG_GROUP_ID", -1003997405288))
 HEROKU_APP_NAME = os.getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = os.getenv("HEROKU_API_KEY")
 
@@ -54,12 +54,12 @@ UPSTREAM_REPO = os.getenv("UPSTREAM_REPO", "")
 UPSTREAM_BRANCH = os.getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = os.getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = os.getenv("SUPPORT_CHANNEL", "")
-SUPPORT_GROUP = os.getenv("SUPPORT_GROUP", "")
-INSTAGRAM = os.getenv("INSTAGRAM", "https://t.me/Katillll")
-YOUTUBE = os.getenv("YOUTUBE", "https://t.me/Katillll")
-GITHUB = os.getenv("GITHUB", "https://t.me/Katillll")
-DONATE = os.getenv("DONATE", "https://t.me/Katillll")
+SUPPORT_CHANNEL = os.getenv("SUPPORT_CHANNEL", "https://t.me/Ghostrider_fire")
+SUPPORT_GROUP = os.getenv("SUPPORT_GROUP", "https://t.me/+IYgmL_vwW0cxNGI1")
+INSTAGRAM = os.getenv("INSTAGRAM", "")
+YOUTUBE = os.getenv("YOUTUBE", "")
+GITHUB = os.getenv("GITHUB", "NHI DUNGA ")
+DONATE = os.getenv("DONATE", "NHI")
 PRIVACY_LINK = os.getenv("PRIVACY_LINK", "https://graph.org/Privacy-Policy-05-01-30")
 
 DURATION_LIMIT_MIN = int(os.getenv("DURATION_LIMIT", 300))
@@ -79,18 +79,18 @@ STRING5 = os.getenv("STRING_SESSION5", None)
 
 AUTO_LEAVING_ASSISTANT = bool(os.getenv("AUTO_LEAVING_ASSISTANT", False))
 
-START_IMG_URL = os.getenv("START_IMG_URL", "https://files.catbox.moe/4v1tel.jpg")
-PING_IMG_URL = "https://files.catbox.moe/pvmze9.jpg"
-PLAYLIST_IMG_URL = "https://files.catbox.moe/d87zj0.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/i691sk.jpg"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/l6mbl9.jpg"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/knsvch.jpg"
-STREAM_IMG_URL = "https://files.catbox.moe/h9h969.jpg"
-SOUNCLOUD_IMG_URL = "https://files.catbox.moe/00g95q.jpg"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/p46q1g.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/p46q1g.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/p46q1g.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/p46q1g.jpg"
+START_IMG_URL = os.getenv("START_IMG_URL", "https://i.ibb.co/ymJk2RbN/GHOSTBots-jpg.jpg")
+PING_IMG_URL = "https://i.ibb.co/n85mhQfw/1779854891.png"
+PLAYLIST_IMG_URL = "https://i.ibb.co/3yc6NX2R/photo-2026-05-27-09-41-35.jpg"
+STATS_IMG_URL = "https://i.ibb.co/ymJk2RbN/GHOSTBots-jpg.jpg"
+TELEGRAM_AUDIO_URL = "https://i.ibb.co/n85mhQfw/1779854891.png"
+TELEGRAM_VIDEO_URL = "https://i.ibb.co/n85mhQfw/1779854891.png"
+STREAM_IMG_URL = "https://i.ibb.co/3yc6NX2R/photo-2026-05-27-09-41-35.jpg"
+SOUNCLOUD_IMG_URL = "https://i.ibb.co/3yc6NX2R/photo-2026-05-27-09-41-35.jpg"
+YOUTUBE_IMG_URL = "https://i.ibb.co/ymJk2RbN/GHOSTBots-jpg.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://i.ibb.co/ymJk2RbN/GHOSTBots-jpg.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://i.ibb.co/ymJk2RbN/GHOSTBots-jpg.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://i.ibb.co/3yc6NX2R/photo-2026-05-27-09-41-35.jpg"
 
 BANNED_USERS = filters.user()
 adminlist = {}
