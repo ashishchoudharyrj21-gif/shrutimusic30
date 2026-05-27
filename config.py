@@ -43,7 +43,7 @@ API_HASH = os.getenv("API_HASH", )
 BOT_TOKEN = os.getenv("BOT_TOKEN", )
 OWNER_ID = int(os.getenv("OWNER_ID", ))
 OWNER_USERNAME = os.getenv("OWNER_USERNAME", )
-BOT_USERNAME = os.getenv("BOT_USERNAME", ")
+BOT_USERNAME = os.getenv("BOT_USERNAME", "GHOSTVIBESXSONGBOT")
 
 MONGO_DB_URI = os.getenv("MONGO_DB_URI", )
 LOG_GROUP_ID = int(os.getenv("LOG_GROUP_ID", ))
