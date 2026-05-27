@@ -38,15 +38,15 @@ def styled_button(text, **kwargs):
 
 load_dotenv()
 
-API_ID = int(os.getenv("API_ID" 32177385))
-API_HASH = os.getenv("API_HASH", "cf2338292ba68d8e5e13bb93b0dc3cc0")
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8875211061:AAGGxx1haGV3A39sf28zAxByyg3ZnzdXVK0")
-OWNER_ID = int(os.getenv("OWNER_ID", 6740955542))
-OWNER_USERNAME = os.getenv("OWNER_USERNAME", "@GHOSTRIDERFIRE0")
-BOT_USERNAME = os.getenv("BOT_USERNAME", "@GHOSTVIBESXSONGBOT")
+API_ID = int(os.getenv("API_ID" ))
+API_HASH = os.getenv("API_HASH", )
+BOT_TOKEN = os.getenv("BOT_TOKEN", )
+OWNER_ID = int(os.getenv("OWNER_ID", ))
+OWNER_USERNAME = os.getenv("OWNER_USERNAME", )
+BOT_USERNAME = os.getenv("BOT_USERNAME", ")
 
-MONGO_DB_URI = os.getenv("MONGO_DB_URI", "mongodb+srv://bsdk:betichod@cluster0.fgj1r9z.mongodb.net/?retryWrites=true&w=majority")
-LOG_GROUP_ID = int(os.getenv("LOG_GROUP_ID", -1003997405288))
+MONGO_DB_URI = os.getenv("MONGO_DB_URI", )
+LOG_GROUP_ID = int(os.getenv("LOG_GROUP_ID", ))
 HEROKU_APP_NAME = os.getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = os.getenv("HEROKU_API_KEY")
 
@@ -71,7 +71,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(os.getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 SPOTIFY_CLIENT_ID = os.getenv("SPOTIFY_CLIENT_ID", None)
 SPOTIFY_CLIENT_SECRET = os.getenv("SPOTIFY_CLIENT_SECRET", None)
 
-STRING1 = os.getenv("STRING_SESSION", "BQFitqsAm_U1Tw9aJ0PK6ANqodkYkxvPiV3G_rQRERqD4aA5nypB-NEVpoxKLzEIvYYIHCZ19S735s-L5oCGSWWar4gDpq9rJLgigHCq8O5K49qXrUuO8QtiTDhEbG0RBC8bZfvEdbi0qliaLJZJTxSStUQFYQDDkY-Ouuucq0g9qic3dXdBv3MnRIPGV0zQGWXTEyXMfRKqbtwYYwyHPONytvIqswuKBll7pop4-C4Gfk3KBKTh2ENbZ8z4PfvYa1PG5HtZP60Yq9BAsJ-lGSfoz7oiFYxXUX1iftd2RQaC7lNXpzUTW4S1e0pilktuACX6TjdX2HkK_BM1b0aTnG5Ir8NQDAAAAAGh1VhEAA")
+STRING1 = os.getenv("STRING_SESSION", None)
 STRING2 = os.getenv("STRING_SESSION2", None)
 STRING3 = os.getenv("STRING_SESSION3", None)
 STRING4 = os.getenv("STRING_SESSION4", None)
