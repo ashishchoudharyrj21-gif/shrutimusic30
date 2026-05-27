@@ -74,19 +74,19 @@ async def send_repo(_, message: Message):
         caption=(
             "<b>✨ ʜᴇʏ ᴅᴇᴀʀ, ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ᴏꜰꜰɪᴄɪᴀʟ ʀᴇᴘᴏꜱɪᴛᴏʀʏ ᴏꜰ ᴛʜɪꜱ ʙᴏᴛ ✨</b>\n\n"
             "🔗 ᴅᴏɴ'ᴛ ꜰᴏʀɢᴇᴛ ᴛᴏ ɢɪᴠᴇ ᴀ ꜱᴛᴀʀ 🌟 ᴀɴᴅ ꜰᴏʟʟᴏᴡ!\n\n"
-            "🧡 ᴄʀᴇᴅɪᴛꜱ : <a href='https://t.me/Katillll'>@Katillll</a>"
+            "🧡 ᴄʀᴇᴅɪᴛꜱ : <a href='https://t.me/+utkzRQBVqmUxOTk1'>@GHOSTVIBESXSONGBOT</a>"
         ),
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     styled_button(
                         "👑 Owner",
-                        url="https://t.me/Katillll",
+                        url="https://t.me/+utkzRQBVqmUxOTk1",
                         style=enums.ButtonStyle.PRIMARY,
                     ),
                     styled_button(
                         "💸 Buy Now",
-                        url="https://t.me/Katillll",
+                        url="https://t.me/+utkzRQBVqmUxOTk1",
                         style=enums.ButtonStyle.DANGER,
                     )
                 ]
