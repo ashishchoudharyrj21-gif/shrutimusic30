@@ -66,8 +66,8 @@ async def fork_repo_callback(client, query):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    styled_button("🚀 Fᴏʀᴋ Rᴇᴘᴏ", url="https://t.me/Katillll", style=enums.ButtonStyle.PRIMARY),
-                    styled_button("⚡ Hᴇʀᴏᴋᴜ Dᴇᴘʟᴏʏ", url="https://t.me/Katillll", style=enums.ButtonStyle.PRIMARY)
+                    styled_button("🚀 Fᴏʀᴋ Rᴇᴘᴏ", url="NHI DUNGA", style=enums.ButtonStyle.PRIMARY),
+                    styled_button("⚡ Hᴇʀᴏᴋᴜ Dᴇᴘʟᴏʏ", url="NHI DUNGA", style=enums.ButtonStyle.PRIMARY)
                 ],
                 [
                     styled_button("🔙 Bᴀᴄᴋ", callback_data="settingsback_helper", style=enums.ButtonStyle.PRIMARY)
