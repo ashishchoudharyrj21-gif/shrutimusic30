@@ -1,6 +1,6 @@
 import pyrogram
 from pyrogram import Client
-from pyrogram.enums import ChatMemberStatus, ParseMode, ButtonStyle
+from pyrogram.enums import ChatMemberStatus, ParseMode
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 import config
