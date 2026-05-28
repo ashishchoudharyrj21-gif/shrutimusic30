@@ -8,6 +8,18 @@ from pyrogram import filters, enums
 from pyrogram.types import InlineKeyboardButton
 import builtins
 
+# Ensure ButtonStyle exists in pyrogram.enums (fallback for older Kurigram/Pyrogram builds)
+try:
+    _ = enums.ButtonStyle.PRIMARY
+except AttributeError:
+    from enum import Enum
+    class _ButtonStyleProxy(Enum):
+        DEFAULT = 0
+        PRIMARY = 1
+        DANGER = 2
+        SUCCESS = 3
+    enums.ButtonStyle = _ButtonStyleProxy
+
 _STYLE_MAP = {
     "primary": enums.ButtonStyle.PRIMARY,
     "success": enums.ButtonStyle.SUCCESS,
@@ -42,11 +54,11 @@ API_ID = int(os.getenv("API_ID" ))
 API_HASH = os.getenv("API_HASH", )
 BOT_TOKEN = os.getenv("BOT_TOKEN", )
 OWNER_ID = int(os.getenv("OWNER_ID", ))
-OWNER_USERNAME = os.getenv("OWNER_USERNAME", )
+OWNER_USERNAME = os.getenv("OWNER_USERNAME","GHOSTRIDERFIRE0")
 BOT_USERNAME = os.getenv("BOT_USERNAME", "GHOSTVIBESXSONGBOT")
 
-MONGO_DB_URI = os.getenv("MONGO_DB_URI", )
-LOG_GROUP_ID = int(os.getenv("LOG_GROUP_ID", ))
+MONGO_DB_URI = os.getenv("MONGO_DB_URI", None )
+LOG_GROUP_ID = int(os.getenv("LOG_GROUP_ID", None))
 HEROKU_APP_NAME = os.getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = os.getenv("HEROKU_API_KEY")
 
@@ -56,10 +68,10 @@ GIT_TOKEN = os.getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = os.getenv("SUPPORT_CHANNEL", "https://t.me/Ghostrider_fire")
 SUPPORT_GROUP = os.getenv("SUPPORT_GROUP", "https://t.me/+IYgmL_vwW0cxNGI1")
-INSTAGRAM = os.getenv("INSTAGRAM", "")
-YOUTUBE = os.getenv("YOUTUBE", "")
-GITHUB = os.getenv("GITHUB", "NHI DUNGA ")
-DONATE = os.getenv("DONATE", "NHI")
+INSTAGRAM = os.getenv("INSTAGRAM", "https://t.me/+IYgmL_vwW0cxNGI1")
+YOUTUBE = os.getenv("YOUTUBE", "https://t.me/+IYgmL_vwW0cxNGI1")
+GITHUB = os.getenv("GITHUB", "https://t.me/+IYgmL_vwW0cxNGI1")
+DONATE = os.getenv("DONATE", "https://t.me/+IYgmL_vwW0cxNGI1")
 PRIVACY_LINK = os.getenv("PRIVACY_LINK", "https://graph.org/Privacy-Policy-05-01-30")
 
 DURATION_LIMIT_MIN = int(os.getenv("DURATION_LIMIT", 300))
